@@ -1,0 +1,69 @@
+@import '../Mixins_Variables/colors';
+@import '../Mixins_Variables/commonComponents';
+@import '../Mixins_Variables/crossBrowser';
+@import '../Mixins_Variables/position';
+
+@mixin animatedBg(){
+    .logo-ball{
+        @include flexBox(row,center,center);
+        @include animation(levitate, shine);
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        position: absolute;
+        bottom: 20px;
+        animation-iteration-count: infinite;
+        img{
+            width: 20px;
+            height: 20px;
+            @include borderRadius(50%);
+            @include animation(rotate 5s infinite linear);
+        }
+        
+        
+        &:nth-of-type(1){
+            left: 20%;
+            animation-duration: 10s, 3s;
+            animation-delay: 2s, 0s;
+        }
+        &:nth-of-type(2){
+            left: 40%;
+            animation-duration: 4s, 3s;
+            animation-delay: 5s, 0s;
+        }
+        &:nth-of-type(3){
+            left: 60%;
+            animation-duration: 8s, 3s;
+            animation-delay: 1s, 0s;
+        }
+        &:nth-of-type(4){
+            left: 80%;
+            animation-duration: 12s, 3s;
+            animation-delay: 0s;
+        }
+    }
+}
+
+@keyframes levitate {
+    0%{}
+    100%{
+        bottom: 105%;
+    }
+}
+@keyframes rotate{
+    0%{}
+    100%{
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+    }
+}
+@keyframes shine{
+    0%{}
+    50%{
+        box-shadow: 1px 1px 2px #1ffd92;
+}
+    100%{}
+}

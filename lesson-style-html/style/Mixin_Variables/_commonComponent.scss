@@ -1,0 +1,15 @@
+@import './colors';
+@import './crossBrowser';
+
+@mixin primary_btn(){
+    @include borderRadius(10px);
+    font-size: 1.25rem;
+    font-weight: 700;
+    background-color: $primary_color;
+    color: #000;
+    padding: 10px 20px;
+    &:hover{
+        background-color: #000;
+        color: $primary_color;
+    }
+}

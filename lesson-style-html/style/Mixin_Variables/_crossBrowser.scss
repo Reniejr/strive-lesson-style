@@ -6,14 +6,6 @@
     -o-border-radius: $radius;
 }
 
-@mixin transition($properties...){
-    transition: $properties;
-    -webkit-transition: $properties;
-    -moz-transition: $properties;
-    -ms-transition: $properties;
-    -o-transition: $properties;
-}
-
 @mixin animation($properties...){
     animation: $properties;
     -webkit-animation: $properties;

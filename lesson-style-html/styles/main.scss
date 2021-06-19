@@ -4,9 +4,18 @@
 @import './Mixins_Variables/fonts';
 @import './Mixins_Variables/position';
 
+@import './sections/landing-section';
+
 *, *::after, *::before{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: $main_fonts;
+}
+
+body{
+    background-color: #000;
+    color: #fff;
+    // overflow-x: hidden;
+    @include landingSection();
 }

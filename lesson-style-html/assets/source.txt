@@ -1,0 +1,4 @@
+logo_black = https://i.ibb.co/RBHD7dM/strive-Inv.png
+logo_original = https://i.ibb.co/SXFJKwD/strive.png
+logo_lower = https://i.ibb.co/SJJC3Bp/strive1-Inv.png
+logo_upper = https://i.ibb.co/vzCDJ2R/strive2-Inv.png
