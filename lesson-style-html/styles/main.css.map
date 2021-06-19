@@ -1,8 +1,13 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,CAAC,EAAE,CAAC,AAAA,OAAO,EAAE,CAAC,AAAA,QAAQ,CAAA;EAClB,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;CACzB",
+    "mappings": "AIAA,OAAO,CAAC,6LAAI;AACZ,OAAO,CAAC,uIAAI;AJKZ,AAAA,CAAC,EAAE,CAAC,AAAA,OAAO,EAAE,CAAC,AAAA,QAAQ,CAAA;EAClB,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;EACtB,WAAW,EIPF,YAAY,EAAE,MAAM,EAAE,UAAU;CJQ5C",
     "sources": [
-        "main.scss"
+        "main.scss",
+        "Mixins_Variables/_colors.scss",
+        "Mixins_Variables/_commonComponents.scss",
+        "Mixins_Variables/_crossBrowser.scss",
+        "Mixins_Variables/_fonts.scss",
+        "Mixins_Variables/_position.scss"
     ],
     "names": [],
     "file": "main.css"

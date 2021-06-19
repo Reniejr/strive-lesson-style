@@ -1,5 +1,12 @@
+@import './Mixins_Variables/colors';
+@import './Mixins_Variables/commonComponents';
+@import './Mixins_Variables/crossBrowser';
+@import './Mixins_Variables/fonts';
+@import './Mixins_Variables/position';
+
 *, *::after, *::before{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: $main_fonts;
 }
